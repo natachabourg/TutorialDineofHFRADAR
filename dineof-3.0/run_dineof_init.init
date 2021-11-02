@@ -1,0 +1,38 @@
+
+!  INPUT File for dineof 3.0 
+
+data = ['/data/MIO/natachab/dineof_summer_school/input_data/PEY_Y2020M06_8_pre.nc#v','/data/MIO/natachab/dineof_summer_school/input_data/POB_Y2020M06_8_pre.nc#v'] 
+
+mask = ['/data/MIO/natachab/dineof_summer_school/input_data/PEY_Mask.nc#mask','/data/MIO/natachab/dineof_summer_school/input_data/POB_Mask.nc#mask'] 
+
+time = '/data/MIO/natachab/dineof_summer_school/input_data/PEY_Y2020M06_8_pre.nc#time' 
+
+alpha = 5.00e-04
+
+numit =  3
+
+nev =  86
+
+neini =   1 
+
+ncv =  91
+
+tol = 1.00e-08 
+
+nitemax = 500
+
+toliter = 1.00e-02
+
+rec = 1 
+
+eof = 1 
+
+norm = 1 
+
+Output = '/data/MIO/natachab/dineof_summer_school/my_result_folder/' 
+
+results = ['/data/MIO/natachab/dineof_summer_school/my_result_folder/PEY_din_Y2020M06_8.nc#v','/data/MIO/natachab/dineof_summer_school/my_result_folder/POB_din_Y2020M06_8.nc#v'] 
+seed = 243435 
+
+! END OF PARAMETER FILE 
+
