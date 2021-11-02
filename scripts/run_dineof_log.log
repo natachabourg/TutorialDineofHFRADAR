@@ -1,0 +1,126 @@
+ ********************************************************************
+ Numerical data read
+ You entered the values:
+ number of EOF modes you want to compute          86
+ maximal size for the Krylov subspace          91
+
+ You asked for the normalisation of the input matrices
+
+ The right and left EOFs will be written in directory /data/MIO/natachab/dineof_summer_school/my_result_folder/
+
+ ********************************************************************
+
+ You entered filenames /data/MIO/natachab/dineof_summer_school/input_data/PEY_Y2020M06_8_pre.nc#v
+                       /data/MIO/natachab/dineof_summer_school/input_data/PEY_Mask.nc#mask
+ You entered filenames /data/MIO/natachab/dineof_summer_school/input_data/POB_Y2020M06_8_pre.nc#v
+                       /data/MIO/natachab/dineof_summer_school/input_data/POB_Mask.nc#mask
+
+
+ ********************************************************************
+ Now some statistics about your data:
+
+  Number of mask land points:                                    3693
+        Dimension of file  1:                   119  x    63  x    92
+
+  Number of mask land points:                                    3839
+        Dimension of file  2:                   151  x    58  x    92
+
+ end subroutine stat
+
+                        Mean:                                    0.00
+          Standard deviation:                                    0.16
+
+ end subroutine stat
+
+                        Mean:                                   -0.06
+          Standard deviation:                                    0.14
+
+ ***
+ Matrix loaded ... Land points extracted...
+
+ Size of the matrix used in DINEOF:                     8723 x     92
+ ***
+ Diffusion of covariance matrix activated
+ with parameters: alpha =  0.00    and number of iterations =   3
+
+ Missing data:                     81724 out of      802516 ( 10.18%)
+
+ Number of cross validation points                               8065
+ ********************************************************************
+
+ Time (in seconds) for 1 EOF mode calculation in DINEOF    5.4597
+
+ # EOF modes asked:  86        Convergence level required: 0.1E-01
+
+ Starting with the EOF mode calculation...
+
+ EOF mode    Expected Error    Iterations made   Convergence achieved
+ ________    ______________    _______________   ____________________
+
+      1              0.7978                  6             0.8598E-02
+      2              0.5414                 10             0.9400E-02
+      3              0.4778                  8             0.8011E-02
+      4              0.4317                  5             0.9789E-02
+      5              0.3979                  8             0.9220E-02
+      6              0.3700                  5             0.9075E-02
+      7              0.3512                  5             0.8452E-02
+      8              0.3336                  5             0.8642E-02
+      9              0.3187                  5             0.9252E-02
+     10              0.3074                  4             0.9276E-02
+     11              0.2992                  6             0.9000E-02
+     12              0.2919                  7             0.9596E-02
+     13              0.2855                  6             0.8844E-02
+     14              0.2767                  7             0.9623E-02
+     15              0.2721                  6             0.9649E-02
+     16              0.2681                  6             0.9367E-02
+     17              0.2643                  6             0.8912E-02
+     18              0.2617                  5             0.9764E-02
+     19              0.2582                  4             0.9735E-02
+     20              0.2554                  5             0.9542E-02
+     21              0.2522                  5             0.9565E-02
+     22              0.2494                  5             0.9536E-02
+     23              0.2471                  5             0.9204E-02
+     24              0.2446                  5             0.9117E-02
+     25              0.2438                  4             0.9498E-02
+     26              0.2412                  4             0.9972E-02
+     27              0.2404                  7             0.9342E-02
+     28              0.2386                  5             0.9246E-02
+     29              0.2381                  4             0.9627E-02
+     30              0.2363                  4             0.9282E-02
+     31              0.2355                  4             0.9555E-02
+     32              0.2351                  4             0.9151E-02
+     33              0.2354                  4             0.9963E-02
+     34              0.2373                  4             0.9450E-02
+     35              0.2375                  4             0.9085E-02
+
+  Minimum reached in cross-validation
+  Number of optimal EOF modes:           32
+
+  Make last reconstruction, including data put aside for cross-validation
+
+     32              0.2351                  4             0.9151E-02
+
+ DINEOF finished!
+
+number of eigenvalues retained for the reconstruction  32
+         expected error calculated by cross-validation     0.2351
+            total time (in seconds) in lanczos process   761.6439
+
+ Now writing data...
+ total variance of the initial matrix   0.99999999999999922     
+ total variance of the reconstructed matrix   0.99472161181540808     
+ Sum of the squares of the singular values of the           32 eof retained   783639.35087344795     
+ SCE filled matrix (valex eliminated)=    783639.26284529897     
+
+ mean    4.6463212104810173E-003
+ Standard deviation  0.15878494066930368       0.16246769271997175       0.14125245373015555        4.4404875187405365E-003  -5.9110919582117963E-002
+
+
+ mean   -5.7619830242268487E-002
+ Standard deviation  0.14074563627537515       0.16246769271997175       0.14125245373015555        4.4404875187405365E-003  -5.9110919582117963E-002
+
+
+ ...done!
+
+198.06user 586.82system 0:12.64elapsed 6209%CPU (0avgtext+0avgdata 43908maxresident)k
+0inputs+29528outputs (0major+24490minor)pagefaults 0swaps
